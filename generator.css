@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("hd6.jpg") no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.tabs li {
+  padding: 10px;
+  background-color: #9833554a;
+  border-radius: 20px;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tabs li:hover,
+.tabs li.active {
+  background-color: rgba(51, 51, 90, 0.634);
+}
+.cards > div:not(:first-child) {
+  display: none;
+}
+
+.cards {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.card1,
+.card2 {
+  width: 50%;
+  margin: auto;
+  padding: 55px;
+  background-color: rgba(51, 51, 90, 0.634);
+  border-radius: 40px;
+  margin-top: 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.button {
+  background: linear-gradient(to right, #46415c, #635274);
+  color: white;
+  padding: 15px 35px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-top: 5px;
+}
+.button:hover {
+  background: #937392;
+}
+.buttons {
+  margin-top: 50px;
+}
+
+#back {
+  margin-bottom: auto;
+  padding: 10px 20px;
+}
+
+#fav {
+  float: right;
+  background-repeat: no-repeat;
+  background-color: rgba(240, 248, 255, 0);
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+}
+#fav img {
+  width: 35px;
+  margin-top: 5px;
+}
+#fav:hover {
+  background-color: #937392;
+}
+#fav:focus {
+  background-color: #000038ce;
+}
+#author::before,
+#author::after {
+  content: " - ";
+}
+#quote::after,
+#quote::before {
+  content: " “ ";
+}
+#quote::after {
+  content: "  ” ";
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(236, 232, 239);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+  font-size: 35px;
+}
+
+h5 {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: -10px;
+}
+p {
+  font-size: 18px;
+  color: rgb(238, 234, 241);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="generator.css" />
+    <title>Quote generator</title>
+  </head>
+  <body>
+    <h1>Get your quote !</h1>
+    <br>
+    <ul class="tabs">
+      <li class="active" data-cont=".card1">Generator</li>
+      <li data-cont=".card2">your favourites</li>
+    </ul>
+    <div class="cards">
+      <div class="card1">
+        <p id="quote"></p>
+        <p id="author"></p>
+        <div class="buttons">
+          <button class="button" onclick="getQuote()">Generate</button>
+          <button id="fav">
+            <img src="Heart-Emoji-PNG-Image-File.png" />
+          </button>
+        </div>
+      </div>
+      <div class="card2">
+        <h5>*double click to remove an element*</h5>
+        <div id="favContainer"></div>
+    </div>
+    <script src="generator.js"></script>
+  </body>
+</html>
