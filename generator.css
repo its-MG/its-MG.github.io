@@ -17,10 +17,17 @@ body {
 .tabs li {
   padding: 10px;
   background-color: #9833554a;
-  border-radius: 20px;
   color: whitesmoke;
   cursor: pointer;
   transition: 0.2s;
+}
+#G {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#F {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .tabs li:hover,
